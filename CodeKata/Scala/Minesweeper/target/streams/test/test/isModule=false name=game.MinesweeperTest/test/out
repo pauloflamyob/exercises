@@ -1,0 +1,30 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mMinesweeperTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mConvert Single Digits[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should convert 0 mines and 0x0 fields *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(List(".")) did not equal List(List()) (MinesweeperTest.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should convert 0 mines and 1x1 fields *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(List(".")) did not equal List(List("0")) (MinesweeperTest.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should convert 0 mines and 2x1 fields *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(List(".")) did not equal List(List("0", "0")) (MinesweeperTest.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should convert 0 mines and 1x2 fields *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(List(".")) did not equal List(List("0"), List("0")) (MinesweeperTest.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should convert 1 mines and 1x1 fields *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(List(".")) did not equal List(List("*")) (MinesweeperTest.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should convert 1 mines and 1x2 fields on the left *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(List(".")) did not equal List(List("*"), List("1")) (MinesweeperTest.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should convert 1 mines and 1x2 fields on the right *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(List(".")) did not equal List(List("1"), List("*")) (MinesweeperTest.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should convert 2 mines and 1x2 fields *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(List(".")) did not equal List(List("*"), List("*")) (MinesweeperTest.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should convert 2 mines and 2x1 fields on the left *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(List(".")) did not equal List(List("*", "1")) (MinesweeperTest.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should convert 2 mines and 2x1 fields on the right *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(List(".")) did not equal List(List("1", "*")) (MinesweeperTest.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should convert 2 mines and 2x2 fields *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(List(".")) did not equal List(List("2", "*"), List("2", "*")) (MinesweeperTest.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should convert 3 mines and 3x3 fields placed diagonally *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(List(".")) did not equal List(List("*", "2", "1"), List("2", "*", "2"), List("1", "2", "*")) (MinesweeperTest.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should convert 3 mines and 3x5 fields *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(List(".")) did not equal List(List("*", "*", "1", "0", "0"), List("3", "3", "2", "0", "0"), List("1", "*", "1", "0", "0")) (MinesweeperTest.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should convert 2 mines and 4x4 fields *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(List(".")) did not equal List(List("*", "1", "0", "0"), List("2", "2", "1", "0"), List("1", "*", "1", "0"), List("1", "1", "1", "0")) (MinesweeperTest.scala:10)[0m[0m
