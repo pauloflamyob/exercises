@@ -28,9 +28,26 @@ class BoleynSalaryTest extends FunSpec {
       Query(-5, 4),
       Query(2, 2)
     )
+
+    var nodes2 = List (
+      Hierarchy(2, 1),
+      Hierarchy(3, 2),
+      Hierarchy(4, 2),
+      Hierarchy(5, 3)
+    )
+    val salaries2 = List(8, 3, 4, 2, 6)
+    val queries2 = List(
+      Query(3, 1),
+      Query(-3, 2),
+      Query(-1, 1),
+      Query(-3, 2),
+      Query(1, 1)
+    )
     val input = Input(nodes, salaries, queries)
+    val input2 = Input(nodes2, salaries2, queries2)
     val output = List(7, 8, 7, 3, 6, 2, 8)
-    val testCases = List(new TestCase(input, output))
+    val output2 = List(5, 3, 4, 2, 5)
+    val testCases = List(new TestCase(input, output), new TestCase(input2, output2))
 
     testCases.foreach(generateTest)
   }

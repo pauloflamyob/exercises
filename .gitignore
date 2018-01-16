@@ -89,3 +89,5 @@ Temporary Items
 
 # Removing idea folder entirely #
 .idea/
+
+**/target/**

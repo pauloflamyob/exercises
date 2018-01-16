@@ -4,7 +4,7 @@
 		module="minesweeper-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171101081929"
+		publication="20180116122314"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

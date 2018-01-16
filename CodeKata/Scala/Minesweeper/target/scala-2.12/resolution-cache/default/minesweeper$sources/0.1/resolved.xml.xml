@@ -4,7 +4,7 @@
 		module="minesweeper$sources"
 		revision="0.1"
 		status="integration"
-		publication="20171017154402"
+		publication="20180116122318"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

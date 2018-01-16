@@ -768,25 +768,25 @@
 [debug] == resolving dependencies default#minesweeper$sources;0.1->jline#jline;2.14.4 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.3!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.3!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.3!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.4!scalatest_2.12.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.4!jline.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.3!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.4!scalactic_2.12.jar(src)
-[debug] :: resolution report :: resolve 160ms :: artifacts dl 7ms
-[debug] 	report for default#minesweeper$sources;0.1 compile produced in /Users/paul.oflaherty/GitHub/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-compile.xml
-[debug] 	report for default#minesweeper$sources;0.1 runtime produced in /Users/paul.oflaherty/GitHub/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-runtime.xml
-[debug] 	report for default#minesweeper$sources;0.1 test produced in /Users/paul.oflaherty/GitHub/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-test.xml
-[debug] 	report for default#minesweeper$sources;0.1 provided produced in /Users/paul.oflaherty/GitHub/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-provided.xml
-[debug] 	report for default#minesweeper$sources;0.1 optional produced in /Users/paul.oflaherty/GitHub/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-optional.xml
-[debug] 	report for default#minesweeper$sources;0.1 compile-internal produced in /Users/paul.oflaherty/GitHub/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-compile-internal.xml
-[debug] 	report for default#minesweeper$sources;0.1 runtime-internal produced in /Users/paul.oflaherty/GitHub/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-runtime-internal.xml
-[debug] 	report for default#minesweeper$sources;0.1 test-internal produced in /Users/paul.oflaherty/GitHub/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-test-internal.xml
-[debug] 	report for default#minesweeper$sources;0.1 plugin produced in /Users/paul.oflaherty/GitHub/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-plugin.xml
-[debug] 	report for default#minesweeper$sources;0.1 pom produced in /Users/paul.oflaherty/GitHub/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-pom.xml
-[debug] 	report for default#minesweeper$sources;0.1 scala-tool produced in /Users/paul.oflaherty/GitHub/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-scala-tool.xml
-[debug] 	resolve done (160ms resolve - 7ms download)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.3!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.3!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.4!jline.jar(src)
+[debug] :: resolution report :: resolve 148ms :: artifacts dl 6ms
+[debug] 	report for default#minesweeper$sources;0.1 compile produced in /Users/paul.oflaherty/GitHub/exercises/CodeKata/Scala/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-compile.xml
+[debug] 	report for default#minesweeper$sources;0.1 runtime produced in /Users/paul.oflaherty/GitHub/exercises/CodeKata/Scala/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-runtime.xml
+[debug] 	report for default#minesweeper$sources;0.1 test produced in /Users/paul.oflaherty/GitHub/exercises/CodeKata/Scala/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-test.xml
+[debug] 	report for default#minesweeper$sources;0.1 provided produced in /Users/paul.oflaherty/GitHub/exercises/CodeKata/Scala/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-provided.xml
+[debug] 	report for default#minesweeper$sources;0.1 optional produced in /Users/paul.oflaherty/GitHub/exercises/CodeKata/Scala/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-optional.xml
+[debug] 	report for default#minesweeper$sources;0.1 compile-internal produced in /Users/paul.oflaherty/GitHub/exercises/CodeKata/Scala/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-compile-internal.xml
+[debug] 	report for default#minesweeper$sources;0.1 runtime-internal produced in /Users/paul.oflaherty/GitHub/exercises/CodeKata/Scala/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-runtime-internal.xml
+[debug] 	report for default#minesweeper$sources;0.1 test-internal produced in /Users/paul.oflaherty/GitHub/exercises/CodeKata/Scala/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-test-internal.xml
+[debug] 	report for default#minesweeper$sources;0.1 plugin produced in /Users/paul.oflaherty/GitHub/exercises/CodeKata/Scala/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-plugin.xml
+[debug] 	report for default#minesweeper$sources;0.1 pom produced in /Users/paul.oflaherty/GitHub/exercises/CodeKata/Scala/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-pom.xml
+[debug] 	report for default#minesweeper$sources;0.1 scala-tool produced in /Users/paul.oflaherty/GitHub/exercises/CodeKata/Scala/Minesweeper/target/scala-2.12/resolution-cache/reports/default-minesweeper$sources-scala-tool.xml
+[debug] 	resolve done (148ms resolve - 6ms download)

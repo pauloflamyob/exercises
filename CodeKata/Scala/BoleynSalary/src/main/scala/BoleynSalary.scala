@@ -32,15 +32,13 @@ object BoleynSalary {
     filterNodesOnOneSideOfTree(nodes, newLeftFilteredNodes, nodes(nodeIndex).rightId - 1)
   }
 
-  private def addEmployeeIdToOutput(output: List[Int], salary: Int, salaryLookingFor: Int, id: Int): List[Int] = {
-    if(salary == salaryLookingFor) {
-      return output :+ id
-    }
-    output
-  }
+  private def addEmployeeIdToOutput(output: List[Int], salary: Int, salaryLookingFor: Int, id: Int): List[Int] =
+    if (salary == salaryLookingFor) output :+ id else output
+
 
   def query(hierarchies: List[Hierarchy], salaries: List[Int], queries: List[Query]): List[Int] = {
     val nodes = constructNodes(hierarchies, salaries)
+
     queries.foldLeft(List(0))((output, query) => {
       val managerId = getManagerIdFromQuery(query.managerId, output.last)
       val filteredNodes = filterNodes(nodes, List(), managerId - 1)
